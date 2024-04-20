@@ -3,4 +3,12 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
-
+.cuerpo {
+    gap: 8rem;
+}
+.perfil {
+    height: 45rem;
+}
+.texto {
+    width: 30rem;
+}
