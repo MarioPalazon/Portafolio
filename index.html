@@ -12,12 +12,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!--GoogleFonts-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/76066ff5d0.js" crossorigin="anonymous"></script>
     <!--CSStyle-->
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
 </head>
 <body>
+  <!--Menu-->
     <menu class="m-3">
         <ul class="nav justify-content-end">
         <li class="nav-item">
@@ -35,7 +38,7 @@
       </ul>
     </menu>
 
-
+  <!--Cuerpo-->
     <main class="mt-5">
       <div class="container d-flex flex-row cuerpo">
 
@@ -53,6 +56,8 @@
 
 
     </main>
+
+  <!--Despliegues-->
     <nav class="w-auto shadow p-3 mb-5 bg-body-tertiary rounded">
         <div class="container mt-5 ml-0">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -68,7 +73,7 @@
             </ul>
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                <ul class="ml-5">
+                <ul class="ml-4 mt-4">
                     <li class="my-2">2011 Cuarto Medio - Colegio Los Alpes Educa UC</li>
                     <li class="my-2">2012 Kinesiología en la Universidad Nacional Andrés Bello</li>
                     <li class="my-2">2015 Masoterapia Integral en el Instituto Profesional de Chile</li>
@@ -76,10 +81,13 @@
                 </ul>
               </div>
               <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                <ul>
-                    <li>Masajes</li>
-                    <li>Sodimac</li>
-                    <li>Pulmahue</li>
+                <ul class="ml-4 mt-4">
+                    <li><h5>Masajes</h5></li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil placeat fuga praesentium dolorem atque itaque voluptate sint porro vero eos aliquam, optio harum rem animi dolorum sequi. Vitae, excepturi autem.</p>
+                    <li><h5>Sodimac</h5></li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perferendis? Magni, cupiditate tenetur! Provident voluptates sit facere natus laudantium, ipsa eius et possimus repellendus libero laboriosam, modi omnis cupiditate deleniti!</p>
+                    <li><h5>Pulmahue</h5></li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas, doloremque incidunt earum minima optio sint assumenda, modi hic nesciunt sit voluptatem! Sequi tempore temporibus fugit officiis, ad quas consequuntur.</p>
                 </ul>
               </div>
               <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
@@ -141,9 +149,11 @@
             </div>
           </div>
     </nav>
+  
+  <!--Formulario-->
     <footer>
       <form class="bg-primary p-5">
-        <h3 class="text-center">Escríbeme para agendar una visita o saber más de mis trabajos</h3>
+        <h3 class="text-center"><i class="fa-solid fa-arrow-right"></i>Escríbeme para mayor información</h3>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label mt-5">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
