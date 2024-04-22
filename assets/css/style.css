@@ -13,3 +13,8 @@
 .texto {
     width: 30rem;
 }
+
+.link-underline:hover{
+    
+    border-bottom: 1px solid blue;
+}
