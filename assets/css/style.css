@@ -8,6 +8,7 @@
 }
 .perfil {
     height: 45rem;
+    border-radius: 10px;
 }
 .texto {
     width: 30rem;
